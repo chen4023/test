@@ -1,7 +1,8 @@
 import './App.css'
 
-function App() {
-  return <div>template</div>
+function App(item: any) {
+  const i = 1
+  return <div>{item}</div>
 }
 
 export default App
